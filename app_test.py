@@ -6,7 +6,7 @@ from app import area_of_square
     (2, 4),
     (5, 25),
     (10, 100),
-    (63, 63)  
+    (63, 3969)  
 ])
 def test_area(side, expected):
     assert area_of_square(side) == expected
